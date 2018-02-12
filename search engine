@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Search Engine</title>
+<meta name ="viewport" content ="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+body{
+    background:#4f0129;
+}
+.container{
+       margin-top:50px;
+}
+.glyphicon-search{
+ font-size:20px;
+ }
+ .btn-default{
+ background:yellow;
+ width:100px;
+ padding:12.5px;
+ }
+ .form-control{
+ padding:25px;
+ font-size:20px;
+ }
+ 
+ </style>
+</head>
+
+<body>
+<center>
+<h1 style="font-size:49px; margin-top:200px;"><span style="color:blue">S</span><span style="color:red">e</span><span style="color:yellow">a</span><span style="color:blue">r</span><span style="color:green">c</span><span style="color:red">h</span><span> </span><span style="color:red">E</span><span style="color:blue">n</span><span style="color:yellow">g</span><span style="color:red">i</span><span style="color:green">n</span><span style="color:blue">e</span>
+</center>
+<div class ="container">
+<div class ="input-group">
+<div class ="input-group-btn">
+
+<form method="GET" action="http://www.google.com/search">
+<input type ="text" name="q" placeholder="Search" class ="form-control">
+<button class ="btn btn-default" type ="submit"> 
+<i class ="glyphicon glyphicon-search"></i></button>
+ 
+</form>
+</div>
+</div>
+</body>
+</div>
+</html>
